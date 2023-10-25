@@ -1,0 +1,15 @@
+_format_version: "2.1"
+
+services:
+  - name: file-upload-service
+    url: http://host.docker.internal:8080
+    routes:
+      - name: file-upload
+        paths:
+          - /upload
+  - name: hello-service
+    url: http://host.docker.internal:3000
+    routes:
+      - name: hello
+        paths:
+          - /hello
