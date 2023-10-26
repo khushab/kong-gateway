@@ -9,8 +9,9 @@
 
 1. Install docker
 2. Run `docker-compose up` in the root directory
-3. Open `http://localhost:8001/services` in your browser to see all the services
-4. Use services on `http://localhost:8001/path`
+3. Run `file_upload_project` by running `python manage.py runserver 0.0.0.0:8080` in the root directory
+4. Open `http://localhost:8001/services` in your browser to see all the services
+5. Use services on `http://localhost:8001/path`
 
 
 ## Folder Structure: `server`
