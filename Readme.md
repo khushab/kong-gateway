@@ -1,4 +1,4 @@
-### Technologies & tools
+### Technologies & tools:
 
 - Python
 - Django
