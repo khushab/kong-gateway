@@ -5,7 +5,7 @@
 - Docker
 
 
-## Instructions
+## Instructions:
 
 1. Install docker
 2. Run `docker-compose up` in the root directory
